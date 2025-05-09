@@ -11,15 +11,25 @@ do{
 } while (!status || !validStatuses.includes(status.trim().toLowerCase()));
 return status.trim().toLowerCase();
 }
-
+ 
 const taskList = [];
 
 function createTask(taskId){
+  const title = prompt (`Enter the title for Task ${taskId}:`);
+  const description = prompt (`Enter the description for the Task ${taskId}:`);
+  const status = getValidStatus(taskId);
+   
+ return {
+  id:taskId,
+  title:title,
+  description:description,
+  status:status};
+ }
 
 
 
 
-}
+
 
 
 

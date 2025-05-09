@@ -37,7 +37,7 @@ if (!addTask)break;
 
 const newTaskId=taskList.length + 1;
 }
-if (taskList===maxTaskAllowed){
+if (taskList.length===maxTaskAllowed){
 alert("Enough tasks have been added to the board ,please check your console.log");
 
 }

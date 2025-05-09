@@ -12,15 +12,22 @@ do{
 return status.toLowerCase();
 }
 
-const task1 = { title:prompt("Enter the title for Task 1:"),
-description:prompt("Enter the description for Task 1:"),
-status:getValidStatus(1)
-};
+const taskList = [];
 
-const task2 = { title:prompt("Enter the title for Task 2:"),
-description:prompt("Enter the description for Task 2:"),
-status:getValidStatus(2)
-};
+function createTask(taskId){
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 const completedTasks=[task1,task2].filter(task => task.status === "done");

@@ -42,7 +42,8 @@ alert("Enough tasks have been added to the board ,please check your console.log"
 
 }
 
-
+console.log("All Tasks");
+taskList.forEach(task=>{console.log(`#${task.id}:${task.title}[${task.status}] - ${task.description}`);});
 
 
 

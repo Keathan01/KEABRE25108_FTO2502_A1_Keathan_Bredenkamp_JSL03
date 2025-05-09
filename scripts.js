@@ -30,7 +30,15 @@ taskList.push(createTask(2));
 
 const maxTaskAllowed = 5;
 
+while(taskList < maxTaskAllowed){
 
+const addTask= confirm("Would you like to add a new task?")
+if (!addTask)break;
+
+const newTaskId=taskList.length + 1;
+
+
+}
 
 
 

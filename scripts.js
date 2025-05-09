@@ -28,6 +28,8 @@ function createTask(taskId){
 taskList.push(createTask(1));
 taskList.push(createTask(2));
 
+const maxTaskAllowed = 5;
+
 
 
 

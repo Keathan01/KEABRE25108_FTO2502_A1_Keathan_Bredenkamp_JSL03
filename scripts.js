@@ -45,7 +45,7 @@ alert("Enough tasks have been added to the board ,please check your console.log"
 console.log("All Tasks");
 taskList.forEach(task=>{console.log(`#${task.id}:${task.title}[${task.status}] - ${task.description}`);});
 
-const completedTasks=[task1,task2].filter(task => task.status === "done");
+const completedTasks = taskList.filter(task=>task.status==="done");
 
 if(completedTasks.length>0){
   console.log("Completed Tasks:");

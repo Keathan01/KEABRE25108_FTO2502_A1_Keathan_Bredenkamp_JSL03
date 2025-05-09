@@ -36,7 +36,9 @@ const addTask= confirm("Would you like to add a new task?")
 if (!addTask)break;
 
 const newTaskId=taskList.length + 1;
-
+}
+if (taskList===maxTaskAllowed){
+alert("Enough tasks have been added to the board ,please check your console.log");
 
 }
 

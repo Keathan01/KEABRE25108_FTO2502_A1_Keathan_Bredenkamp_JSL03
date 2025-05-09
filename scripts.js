@@ -30,7 +30,7 @@ taskList.push(createTask(2));
 
 const maxTaskAllowed = 5;
 
-while(taskList < maxTaskAllowed){
+while(taskList.length < maxTaskAllowed){
 
 const addTask= confirm("Would you like to add a new task?")
 if (!addTask)break;
@@ -44,16 +44,6 @@ alert("Enough tasks have been added to the board ,please check your console.log"
 
 console.log("All Tasks");
 taskList.forEach(task=>{console.log(`#${task.id}:${task.title}[${task.status}] - ${task.description}`);});
-
-
-
-
-
-
-
-
-
-
 
 const completedTasks=[task1,task2].filter(task => task.status === "done");
 

@@ -5,7 +5,7 @@ let status;
 
 do{
   status = prompt(`Enter the status for Task ${taskNumber}("todo","doing","done"):`);
-  if (!status || !validStatuses.includes(status.toLowerCase())){
+  if (!status || !validStatuses.includes(status.trim().toLowerCase())){
     alert("invalid status! Please enter only:'todo','doing'or'done'.");
   }
 } while (!status || !validStatuses.includes(status.trim().toLowerCase()));
@@ -35,7 +35,7 @@ while(taskList.length < maxTaskAllowed){
 const addTask= confirm("Would you like to add a new task?")
 if (!addTask)break;
 
-const newTaskId=taskList.length + 1;
+const newTaskId= taskList.length + 1;
 taskList.push(createTask(newTaskId));
 }
 if (taskList.length===maxTaskAllowed){

@@ -25,6 +25,8 @@ function createTask(taskId){
   description:description,
   status:status};
  }
+taskList.push(createTask(1));
+taskList.push(createTask(2));
 
 
 

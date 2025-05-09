@@ -9,6 +9,18 @@
 
 This project involves creating a **simple task management system** where users can add **up to three new tasks** to an existing task array. Tasks are **stored as objects in an array**, each with a **unique incremental ID**. Users will enter task details via prompts, and the system will allow filtering to view only completed tasks. The project focuses on **array manipulation, user interaction via prompts and alerts, and console logging for task management**.
 
+## List of techonolgies used!
+- Html
+- Css
+- Javascript
+
+## Set up instructions
+- Go to my github : **https://github.com/Keathan01/KEABRE25108_FTO2502_A1_Keathan_Bredenkamp_JSL03**
+- Fork the repository.
+- Clone the repository. 
+- Ensure Html,Css , Javascript and live server extensions are installed before getting started.
+
+
 ## Key Objectives
 
 ### Logic & User Interaction

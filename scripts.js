@@ -8,8 +8,8 @@ do{
   if (!status || !validStatuses.includes(status.toLowerCase())){
     alert("invalid status! Please enter only:'todo','doing'or'done'.");
   }
-} while (!status || !validStatuses.includes(status.toLowerCase()));
-return status.toLowerCase();
+} while (!status || !validStatuses.includes(status.trim().toLowerCase()));
+return status.trim().toLowerCase();
 }
 
 const taskList = [];

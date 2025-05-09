@@ -39,7 +39,7 @@ const newTaskId= taskList.length + 1;
 taskList.push(createTask(newTaskId));
 }
 if (taskList.length===maxTaskAllowed){
-alert("Enough tasks have been added to the board ,please check your console.log");
+alert("There are enough tasks on your board, please check them in the console");
 
 }
 
